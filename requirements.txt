@@ -1,0 +1,29 @@
+# ─────────────────────────────────────────────────────────────────────
+# recon_engine.py — Python dependencies
+# Install: pip install -r requirements.txt
+#
+# External tools required (must be on PATH):
+#   theHarvester  →  https://github.com/laramies/theHarvester
+#   photon        →  https://github.com/s0md3v/Photon
+#   subfinder     →  https://github.com/projectdiscovery/subfinder
+#   whois         →  apt install whois
+#   dig           →  apt install dnsutils
+#   torsocks      →  apt install torsocks  (only needed with --tor)
+# ─────────────────────────────────────────────────────────────────────
+
+# Async HTTP — core I/O layer
+aiohttp>=3.13.3
+aiohttp-socks>=0.10.1         # SOCKS5/Tor proxy support for aiohttp
+
+# Fast async HTTP client — validation layer
+httpx>=0.28.1
+socksio>=1.0.0                # SOCKS5 transport for httpx (--tor mode)
+
+# Synchronous HTTP — Tor connectivity pre-flight check
+requests>=2.32.5
+
+# Terminal UI
+rich>=13.9.4
+
+# Tor control port — NEWNYM circuit rotation
+stem>=1.8.2

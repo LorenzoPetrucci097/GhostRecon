@@ -1,0 +1,73 @@
+# ─────────────────────────────────────────────────────────────────────
+# .gitignore — recon_engine
+# ─────────────────────────────────────────────────────────────────────
+
+# ── Python runtime ────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# ── Virtual environments ──────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+
+# ── Recon output — never commit target data ───────────────────────────
+report_*.json
+report_*.md
+report_*.toon
+recon.log
+*.log
+
+# ── Tool output directories (photon, theHarvester, etc.) ─────────────
+results/
+output/
+*/
+!.github/
+
+# ── IDE / editor ──────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ── Claude Code / AI assistant ────────────────────────────────────────
+CLAUDE.md
+.claude/
+*.claude
+
+# ── Secrets & credentials ─────────────────────────────────────────────
+proxies.txt
+proxy_list.txt
+*.key
+*.pem
+*.crt
+secrets.*
+config.local.*
+
+# ── OS noise ──────────────────────────────────────────────────────────
+.DS_Store
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
