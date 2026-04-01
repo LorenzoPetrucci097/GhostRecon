@@ -9,7 +9,7 @@
 [![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20Kali-red?logo=linux)](https://www.kali.org/)
 [![Async](https://img.shields.io/badge/Async-asyncio%20%2B%20httpx-purple)](https://docs.python.org/3/library/asyncio.html)
 
-*Authorized use only — for legal security assessments and CTF challenges.*
+*Authorized use only*
 
 ---
 
@@ -23,7 +23,7 @@
 
 ### Overview
 
-`recon_engine.py` is a high-speed, high-anonymity reconnaissance orchestrator built for professional security assessments. It runs six recon tools concurrently, validates every discovered subdomain against HTTP/HTTPS, and produces three structured report formats — all in a single command.
+`recon_engine.py` is a high-speed, high-anonymity reconnaissance orchestrator built for security assessments. It runs six recon tools concurrently, validates every discovered subdomain against HTTP/HTTPS, and produces three structured report formats — all in a single command.
 
 ### ✨ Key Features
 
@@ -169,7 +169,7 @@ Unauthorized use against systems you do not own is illegal. The authors assume n
 
 ### Panoramica
 
-`recon_engine.py` è un orchestratore di ricognizione ad alta velocità e alta anonimità, progettato per assessment di sicurezza professionali. Esegue sei tool di recon in parallelo, valida ogni sottodominio scoperto su HTTP/HTTPS e produce tre formati di report strutturati — tutto con un singolo comando.
+`recon_engine.py` è un orchestratore di ricognizione ad alta velocità e alta anonimità, progettato per assessment di sicurezza. Esegue sei tool di recon in parallelo, valida ogni sottodominio scoperto su HTTP/HTTPS e produce tre formati di report strutturati — tutto con un singolo comando.
 
 ### ✨ Funzionalità principali
 
@@ -313,6 +313,6 @@ L'uso non autorizzato su sistemi altrui è illegale. Gli autori declinano ogni r
 
 <div align="center">
 
-Made for authorized security professionals · Fatto per professionisti della sicurezza autorizzati
+Made for authorized security actors · Fatto per attori della sicurezza autorizzati
 
 </div>
